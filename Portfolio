@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width",initial-scale=1.0">
+        <title>portfolio</title>
+        <link rel="stylesheet" href="siva.css">
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+
+            <nav class="navbar">
+                <a href="#" style="--i:1" class="active">Home</a>
+                <a href="#" style="--i:2">About</a>
+                <a href="#" style="--i:3">Skill</a>
+                <a href="#" style="--i:4">Portfolio</a>
+                <a href="#" style="--i:5">Contact</a>
+            </nav>
+        </header>
+        <section class="home">
+            <div class="hello-content">
+                <h3>Hello,It's Me</h3>
+                <h1>Sivaranjane</h1>
+                <p>I'm Looking for my First Work Experience...</p>
+                <div class="home-sci">
+                    <a href="#" style="--i:7"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#" style="--i:8"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" style="--i:9"><i class='bx bxl-whatsapp' ></i></a>
+                </div>
+                <a href="#" class="btn-box">More About Me</a>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about-img">
+            </div>
+            <div class="about-text">
+                <h2>About<span>Me</span></h2>
+                <p>Motivated and detail-oriented student with a strong interest in computer science. Skilled in programming languages (Python, C,C++,Java) .Proven team player with excellent communication skills. Seeking an internship to apply technical skills and knowledge in a real-world setting.Eager to apply academic knowledge and hands- on experience in a dynamic and challenging environment to contribute to the success of the technology industry.Looking to implement and launch new projects.</p>
+                <a href="#" class="btn-box">More About Me</a>
+             </div>
+        </section>
+        <section>
+            <div class ="services" id="services">
+                <div class="container"><br>
+                    <h1 class="sub-title">My <span>Services</span></h1>
+                    <div class="services-list">
+                        <div>
+                            <i class='bx bx-code' style='color:#00eeff'></i>
+                            <h2>UI/UX Design</h2>
+                            <p>We offer innovative UI & UX design services at Intellectsoft, aimed at delivering an excellent finished product in a timely manner. Through an innovative design process, our in-house creative unit functions as a dedicated design studio within a comprehensive software company. We strive to deliver profoundly engaging mobile and web applications, including prototype designing, testing, and customer experience research.</p>
+                            <a href="#" class="read">learn more</a>
+                        </div>
+                        <div>
+                            <i class='bx bx-crop' style='color:#00eeff'></i>
+                            <h2>UI/UX Design</h2>
+                            <p>We offer innovative UI & UX design services at Intellectsoft, aimed at delivering an excellent finished product in a timely manner. Through an innovative design process, our in-house creative unit functions as a dedicated design studio within a comprehensive software company. We strive to deliver profoundly engaging mobile and web applications, including prototype designing, testing, and customer experience research.</p>
+                            <a href="#" class="read">learn more</a>
+                        </div>
+                        <div>
+                            <i class='bx bxl-apple' style='color:#00eeff'></i>
+                            <h2>UI/UX Design</h2>
+                            <p>We offer innovative UI & UX design services at Intellectsoft, aimed at delivering an excellent finished product in a timely manner. Through an innovative design process, our in-house creative unit functions as a dedicated design studio within a comprehensive software company. We strive to deliver profoundly engaging mobile and web applications, including prototype designing, testing, and customer experience research.</p>
+                            <a href="#" class="read">learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <script src="main.js"></script>
+    </body>
+    </html>
